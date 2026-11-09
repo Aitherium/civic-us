@@ -1,0 +1,20 @@
+{
+  "children": [
+    {
+      "id": "jur:us-ca"
+    },
+    {
+      "id": "jur:us-il"
+    },
+    {
+      "id": "jur:us-ny"
+    },
+    {
+      "id": "jur:us-oh"
+    }
+  ],
+  "generated_at": "2026-11-09",
+  "id": "jur:us",
+  "parent": "",
+  "schema_version": "civic/1"
+}

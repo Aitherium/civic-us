@@ -21,10 +21,10 @@ officials datasets. Regeneration never overwrites a person's correction: see
 
 - `jurisdiction.json` — this jurisdiction: codes, parent, which global-law corpora
   cover it, the boundary pointer, and a coverage block that states the gaps.
-- `records/body/` — every governing body (2).
-- `records/office/` — every seat (0).
-- `records/official/` — who holds a seat (0), with the source that says so.
-- `records/source/` — every URL any record cites (4).
+- `records/body/` — every governing body (3).
+- `records/office/` — every seat (2).
+- `records/official/` — who holds a seat (2), with the source that says so.
+- `records/source/` — every URL any record cites (5).
 - `coverage.json` — counts and gaps; the validator checks it against the files.
 
 There are no meeting or measure records yet. That is a stated gap, not a claim:

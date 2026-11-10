@@ -1,16 +1,16 @@
 {
   "counts": {
-    "bodies": 2,
+    "bodies": 3,
     "jurisdiction": 1,
     "measures": 0,
     "meetings": 0,
-    "offices": 0,
-    "officials": 0,
-    "sources": 4
+    "offices": 2,
+    "officials": 2,
+    "sources": 5
   },
   "gaps": [
     "Senate and House seats are the number of current members the congress-legislators cache resolves (Senate 100, House 439); the House count includes non-voting delegates, so neither is a statutory seat count",
-    "the presidency is not listed: none of the cached officials datasets (congress-legislators, openstates/people) carries the executive branch, so a source-backed presidency record is a stated gap",
+    "the presidency lists only its current holders (President Donald J. Trump, Vice President J.D. Vance); the executive dataset's earlier terms are cached but not emitted",
     "the 535 members of Congress are not emitted as records here; each member is an official record in their state repo (civic-us-<st>), and index.json children names those repos",
     "no meeting or measure records: federal bill ingestion is a later slice"
   ],
@@ -20,6 +20,7 @@
   "sources": [
     "source:787cb1af1fcdda04",
     "source:d67cc2aa6a7260fe",
+    "source:8367900fa9936b7c",
     "source:f885d50ccb05f78b",
     "source:c8e6292d1256ba5b"
   ],
